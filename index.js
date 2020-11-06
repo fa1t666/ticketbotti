@@ -113,17 +113,5 @@ client.on("message",async message=>{
             break;
     }
 });
-//module.exports.run = async (bot, message, args) => {
- //   client.on('message', msg => {
- //       if (msg.content === 'neekeri') {
- //        var warn2 = new Discord.RichEmbed()
- //           .setTitle("Aijai eipäs sanota tollasta!")
- //           .setDescription("Tämä on erittäin vakava varoitus!")
- //           .addField("Ykski tollanen vielä ni oot permoilla")
-//            .setColor('#32cd32')
-//        message.author.mention.send(warn2)
-//        message.delete({ timeout: 10000 })
- //       }
-//    });
 
 client.login(config.token);
