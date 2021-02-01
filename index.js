@@ -37,7 +37,7 @@ client.on("message",async message=>{
                 return;
             }
             let syy = arg.slice(2).join(" ");
-            // syy=message.author+" issued a ticket with the syy\n\n**"+syy+"**";
+            // syy\n\n**"+syy+"**";
             syy = new Discord.RichEmbed()
             .setTitle("Käyttäjä "+message.author.username+" avasi ticketin!")
             .setDescription(syy)
