@@ -1,12 +1,12 @@
 {
-  "name": "ticket-bot",
-  "version": "1.0.0",
-  "description": "Create a ticket for you and the staff to solve the problem",
+  "name": "ticketbotti",
+  "version": "6.6.6",
+  "description": "Luo ticketti niin ylläpito auttaa.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kistaf",
+  "author": "Tiemies fait",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1"
