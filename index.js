@@ -100,17 +100,6 @@ client.on("message",async message=>{
             message.author.send(help);
             message.delete({ timeout: 10000 })
             break;
-        case "meme":
-            var warn2 = new Discord.RichEmbed()
-              .setTitle("Moi "+message.author.username+"!")
-              .setDescription("Oot ihan vitun iso meemi trololol")
-              .addField("Vituttaako vitun homo????")
-              .setThumbnail(f4.bcbits.com/img/a2351018508_10.jpg)
-              .setColor('#98373D');
-            message.author.send(warn2);
-            message.delete({ timeout: 10000 })
-        default:
-            break;
     }
 });
 
